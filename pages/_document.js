@@ -5,12 +5,11 @@ const Document = () => {
 		<Html lang='en'>
 			<Head>
 				<link
-					href='https://fonts.googleapis.com/css2?family=Press%20Start%202P&display=optional'
-					rel='stylesheet'
-				/>
-				<link
-					href='https://fonts.googleapis.com/css2?family=Raleway&display=optional'
-					rel='stylesheet'
+					rel='preload'
+					href='/fonts/PressStart2P-Regular.ttf'
+					as='font'
+					type='font/ttf'
+					crossOrigin='anonymous'
 				/>
 			</Head>
 			<body>
