@@ -59,7 +59,7 @@ ETHEREUM`}
 				>LAUNCHING SOON Q1 2024</Heading>
 			</Flex>
 			<Flex
-				w='auto'
+				w='100%'
 				h='auto'
 				mt={{ base: '21px' }}
 				mb={{ base: '30px', lg: '90px' }}
@@ -80,7 +80,7 @@ ETHEREUM`}
 					alt='Twitter'
 					{...socialStyle}
 				/>
-				<Image
+				{/* <Image
 					src={telegram}
 					alt='Telegram'
 					{...socialStyle}
@@ -89,7 +89,7 @@ ETHEREUM`}
 					src={reddit}
 					alt='Reddit'
 					{...socialStyle}
-				/>
+				/> */}
 			</Flex>
 		</Flex>
 	)
