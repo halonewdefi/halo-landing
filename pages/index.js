@@ -31,7 +31,7 @@ const Home = () => {
 				<Image
 					maxH={{ base: '135px', sm: '170px', md: '245px' }}
 					src={logoteaser}
-					alt='Official Halo Teaser'
+					alt='Official Halo DeFi Teaser'
 					zIndex='2'
 				/>
 				<Heading
@@ -56,7 +56,7 @@ ETHEREUM`}
 					mt='35px'
 					mb='0'
 					textAlign={{ base: 'center', md: 'initial' }}
-				>LAUNCHING SOON Q2 2022</Heading>
+				>LAUNCHING SOON Q1 2024</Heading>
 			</Flex>
 			<Flex
 				w='auto'
