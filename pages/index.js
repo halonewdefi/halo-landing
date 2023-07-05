@@ -82,12 +82,14 @@ ETHEREUM`}
 					alt='Twitter'
 					{...socialStyle}
 				/>
+				<Link href='https://t.me/+dJ-Gz3Gw76lhMmU0'>
+					<Image
+						src={telegram}
+						alt='Telegram'
+						{...socialStyle}
+					/>
+				</Link>
 				{/* <Image
-					src={telegram}
-					alt='Telegram'
-					{...socialStyle}
-				/>
-				<Image
 					src={reddit}
 					alt='Reddit'
 					{...socialStyle}
