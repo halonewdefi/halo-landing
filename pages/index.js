@@ -1,4 +1,4 @@
-import { Flex, Heading, Image } from '@chakra-ui/react'
+import { Flex, Heading, Image, Link } from '@chakra-ui/react'
 import { logoteaser, discord, twitter, telegram, reddit } from '../svg'
 
 const Home = () => {
@@ -70,11 +70,13 @@ ETHEREUM`}
 				gridGap='30px'
 				zIndex='1'
 			>
-				<Image
-					src={discord}
-					alt='Discord'
-					{...socialStyle}
-				/>
+				<Link href='https://discord.gg/Qm7zUNYj'>
+					<Image
+						src={discord}
+						alt='Discord'
+						{...socialStyle}
+					/>
+				</Link>
 				<Image
 					src={twitter}
 					alt='Twitter'
